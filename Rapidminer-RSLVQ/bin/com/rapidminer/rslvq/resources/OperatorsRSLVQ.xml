@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<operators name="rslvq" version="6.0" docbundle="com/rapidminer/rslvq/resources/i18n/OperatorsDocRSLVQ">
+    <group key="">
+        <!-- This is an example how to specify Operators and Operator groups. The Operator groups define
+                where Operators will be located in the Operator tree. -->
+        <!--
+        <group key="RSLVQ">
+           <operator>
+              <key>example_operator_key</key>
+              <class>com.rapidminer.rslvq.operator.OperatorClass</class>
+           </operator>
+         </group>
+         -->
+           <operator>
+              <key>rslvq_operator</key>
+              <class>com.rapidminer.rslvq.operator.RSLVQ_Operator</class>
+           </operator>
+         
+    </group>
+</operators>

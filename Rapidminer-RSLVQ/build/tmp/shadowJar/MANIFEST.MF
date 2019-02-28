@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: RapidMiner GmbH
+Specification-Version: 1.0.0
+Specification-Vendor: RapidMiner GmbH
+Implementation-Version: 1.0.0
+Implementation-Vendor: Jan Engelhardt-Schieser
+Implementation-Title: RSLVQ
+Implementation-URL: www.rapidminer.com
+Specification-Title: RSLVQ
+RapidMiner-Version: 9.0.0
+RapidMiner-Type: RapidMiner_Extension
+Plugin-Dependencies: 
+Extension-ID: rmx_rslvq
+Namespace: rslvq
+Initialization-Class: com.rapidminer.rslvq.PluginInitRSLVQ
+IOObject-Descriptor: com/rapidminer/rslvq/resources/ioobjectsRSLVQ.xml
+Operator-Descriptor: com/rapidminer/rslvq/resources/OperatorsRSLVQ.xml
+ParseRule-Descriptor: com/rapidminer/rslvq/resources/parserulesRSLVQ.x
+ ml
+Group-Descriptor: com/rapidminer/rslvq/resources/groupsRSLVQ.propertie
+ s
+Error-Descriptor: com/rapidminer/rslvq/resources/i18n/ErrorsRSLVQ.prop
+ erties
+UserError-Descriptor: com/rapidminer/rslvq/resources/i18n/UserErrorMes
+ sagesRSLVQ.properties
+GUI-Descriptor: com/rapidminer/rslvq/resources/i18n/GUIRSLVQ.propertie
+ s
+Settings-Descriptor: com/rapidminer/rslvq/resources/i18n/SettingsRSLVQ
+ .properties
+SettingsStructure-Descriptor: com/rapidminer/rslvq/resources/settingsR
+ SLVQ.xml
+
